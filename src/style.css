@@ -55,10 +55,6 @@ body {
   padding: 0 10px;
 }
 
-.li {
-  list-style: none;
-}
-
 .wrapper .ul .li {
   display: flex;
   justify-content: space-between;
@@ -68,7 +64,17 @@ body {
   margin: 0 0 10px 0;
 }
 
-.ul {
+.wrapper .ul {
+  display: none;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.wrapper.active .ul {
+  display: block;
+}
+
+.wrapper.active .info-text {
   display: none;
 }
 
