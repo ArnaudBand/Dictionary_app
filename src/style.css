@@ -1,4 +1,4 @@
-* {
+i* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
 
 .wrapper {
   width: 420px;
-  background-color: #fff;
+  background-color: #ff4;
   border-radius: 7px;
   padding: 28px 28px 45px;
 }
